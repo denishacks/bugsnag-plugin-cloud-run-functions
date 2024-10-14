@@ -1,5 +1,7 @@
 # bugsnag-plugin-cloud-run-functions
 
+[![bugsnag-plugin-cloud-run-functions](https://snyk.io/advisor/npm-package/bugsnag-plugin-cloud-run-functions/badge.svg)](https://snyk.io/advisor/npm-package/bugsnag-plugin-cloud-run-functions)
+
 A [@bugsnag/js](https://docs.bugsnag.com/platforms/javascript/) plugin for capturing errors in Cloud Run functions (ex
 Google Cloud Functions).
 
