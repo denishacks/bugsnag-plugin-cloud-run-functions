@@ -1,0 +1,54 @@
+{
+  "name": "bugsnag-plugin-cloud-run-functions",
+  "version": "1.0.0",
+  "description": "Cloud Run functions support for @bugsnag/node",
+  "keywords": [
+    "BugSnag",
+    "Cloud Run functions",
+    "Google Cloud",
+    "Google Cloud Functions"
+  ],
+  "main": "src/index.js",
+  "types": "types/bugsnag-plugin-cloud-run-functions.d.ts",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/denishacks/bugsnag-plugin-cloud-run-functions/issues"
+  },
+  "homepage": "https://github.com/denishacks/bugsnag-plugin-cloud-run-functions#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:denishacks/bugsnag-plugin-cloud-run-functions.git"
+  },
+  "author": {
+    "name": "Denis Barsukov",
+    "email": "hello@denis.site"
+  },
+  "files": [
+    "src",
+    "types",
+    "UNLICENSE"
+  ],
+  "dependencies": {
+    "@bugsnag/in-flight": "^8.0.0",
+    "@bugsnag/plugin-browser-session": "^8.0.0",
+    "@bugsnag/plugin-express": "^8.0.0"
+  },
+  "devDependencies": {
+    "@bugsnag/node": "^8.0.0",
+    "@google-cloud/functions-framework": "^3.4.2",
+    "chai": "^4.5.0",
+    "mocha": "^10.7.3",
+    "mocha-suppress-logs": "^0.5.1",
+    "sinon": "^19.0.2",
+    "supertest": "^7.0.0"
+  },
+  "peerDependencies": {
+    "@bugsnag/core": "^8.0.0-alpha.1"
+  },
+  "scripts": {
+    "test": "mocha --require mocha-suppress-logs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
