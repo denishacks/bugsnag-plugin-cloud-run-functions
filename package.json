@@ -17,7 +17,7 @@
   "homepage": "https://github.com/denishacks/bugsnag-plugin-cloud-run-functions#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:denishacks/bugsnag-plugin-cloud-run-functions.git"
+    "url": "git+ssh://git@github.com/denishacks/bugsnag-plugin-cloud-run-functions.git"
   },
   "author": {
     "name": "Denis Barsukov",
