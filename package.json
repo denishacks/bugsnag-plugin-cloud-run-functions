@@ -1,6 +1,6 @@
 {
   "name": "bugsnag-plugin-cloud-run-functions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cloud Run functions support for @bugsnag/node",
   "keywords": [
     "BugSnag",
