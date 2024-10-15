@@ -1,6 +1,6 @@
 const BugsnagInFlightPlugin = require('@bugsnag/in-flight')
 const BugsnagPluginBrowserSession = require('@bugsnag/plugin-browser-session')
-const extractRequestInfo = require('@bugsnag/plugin-express/src/request-info')
+const extractRequestInfo = require('./request-info')
 
 const PLUGIN_NAME = 'cloud run functions plugin'
 const FLUSH_TIMEOUT_MS = 2000

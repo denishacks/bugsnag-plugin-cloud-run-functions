@@ -3,7 +3,7 @@ name: Run tests
 on:
   push:
     branches:
-      - main
+      - bugsnag7
 
 jobs:
   node18:
@@ -28,6 +28,19 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          registry-url: https://registry.npmjs.org/
+      - run: npm ci
+      - run: npm run test
+
+  node22:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
           registry-url: https://registry.npmjs.org/
       - run: npm ci
       - run: npm run test

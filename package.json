@@ -29,12 +29,11 @@
     "UNLICENSE"
   ],
   "dependencies": {
-    "@bugsnag/in-flight": "^8.0.0",
-    "@bugsnag/plugin-browser-session": "^8.0.0",
-    "@bugsnag/plugin-express": "^8.0.0"
+    "@bugsnag/in-flight": "^7.10.0",
+    "@bugsnag/plugin-browser-session": "^7.10.0"
   },
   "devDependencies": {
-    "@bugsnag/node": "^8.0.0",
+    "@bugsnag/node": "^7.10.0",
     "@google-cloud/functions-framework": "^3.4.2",
     "chai": "^4.5.0",
     "mocha": "^10.7.3",
@@ -43,7 +42,7 @@
     "supertest": "^7.0.0"
   },
   "peerDependencies": {
-    "@bugsnag/core": "^8.0.0-alpha.1"
+    "@bugsnag/core": "^7.0.0"
   },
   "scripts": {
     "test": "mocha --require mocha-suppress-logs"
