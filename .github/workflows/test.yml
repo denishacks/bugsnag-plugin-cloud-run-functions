@@ -3,7 +3,7 @@ name: Run tests
 on:
   push:
     branches:
-      - main
+      - bugsnag8
 
 jobs:
   node18:
